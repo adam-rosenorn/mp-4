@@ -21,7 +21,6 @@ export default async function getFootballData(category: string, season: number):
               console.log('Error fetching data');
               return null;
         }
-        console.log(response);
 
 
         const jsonResScorer = await response.json();
